@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Document Object Model. It's a representation of your HTML in the browser. Elements are structured in a tree form with DOM, and using JavaScript, you can manipulate the DOM page. React uses what is known as the 'Virtual DOM'.
+
 2. What is an event?
+
+An event is simply an action of some form by the user or browser. Common examples include when the user presses down on a key (keydown will fire as long as the key is pressed), when the user clicks, when the user resizes the page, when the page loads, when the user mouseovers an element, etc.
 
 3. What is an event listener?
 
+An event listener is simply code that 'listens' for the action (event) to occur. IE, whenever you have a click event listener, the code inside that block will not run until the user clicks the specific target.
+
 4. Why would we convert a NodeList into an Array?
 
+Because NodeList is unable to use forEach, map, filter, etc.
+
 5. What is a component?
+
+Single, modular pieces of code, usually consisting of HTML, CSS, and JavaScript, that is part of a larger whole, whether thats an app or website. IE, you would have components of headers, footers, navigation, etc to build out the entirety of the website. It's a small piece to the large whole.
 
 ### Git Set up
 
@@ -51,7 +61,7 @@ Your finished project must include all of the following requirements:
 
 * [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
-* [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
+* [ ] Following the instructions in the `Header/index.js` file, create the Header component.
 
 * [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
